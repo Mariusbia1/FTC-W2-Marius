@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    p{
+        @apply text-[#596780]
+    }
+    .text1 {
+    @apply text-[#596780] text-[20px] font-normal leading-7;
+        
+    }
+    .text {
+    @apply text-[#596780] text-[16px] font-normal leading-7;
+        
+    }
+}   

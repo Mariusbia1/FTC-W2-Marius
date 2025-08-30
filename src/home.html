@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spendind Management Landing Page</title>
+    <link rel="stylesheet" href="./output.css">
+    <!-- Police -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body class="font-jakarta">
+    <div class="relative min-h-screen overflow-hidden text-white bg-gray-900 pb-[3%]">
+        <!-- Forme circulaire en haut à droite -->
+        <div class="absolute top-0 right-0 bg-indigo-700 rounded-full w-96 h-96 blur-3xl opacity-20"></div>
+
+        <!-- Forme circulaire en bas à gauche -->
+        <div class="absolute bottom-0 left-0 bg-purple-600 rounded-full w-80 h-80 blur-3xl opacity-20"></div>
+        <nav class="w-full p-4 border-b border-gray-700 ">
+            <div class="flex flex-row items-center justify-between w-11/12 mx-auto navbar ">
+                <div class="flex flex-row items-center gap-3 logo ">
+                    <span><img class="w-[15px]" src="./images/Layer 2.png" alt="Logo"></span>
+                    <span class="text-[16px]">Spend.In</span>
+                </div>
+                <div class="menu">
+                    <ul class="flex flex-row items-center gap-8 text-[16px] font-medium">
+                        <li><a href=""><select class="bg-transparent " name="" id=""><option  value="">Products</option></select></a></li>
+                        <li><a href="">Benefit</a></li>
+                        <li><a href="">How it Works</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href=""><select class="bg-transparent" name="" id=""><option  value="">Company</option></select></a></li>
+                    </ul>
+                </div>
+                <div class="flex flex-row items-center gap-4 buttons">
+                    <button class="px-5 py-2 text-white ">Login</button>
+                    <button class="px-5 text-white py-2 rounded-3xl border-none hover:border hover:bg-transparent bg-[#7C5CFC] ">Get Demo</button>
+                </div>
+            </div>
+        </nav>
+        <!-- Ton contenu -->
+        <section class="w-11/12 mx-auto pt-[3%] hero min-h-[60vh] flex flex-col items-center justify-center">
+            <div class="relative z-10 ">
+                <h1 class="text-[72px] font-bold text-center ">All your business <br> expenses in one place.</h1>
+                <div class="flex flex-col items-center justify-center">
+                    <p class="mt-4 text-lg text-gray-300">Your one-stop finance empower platform.</p>
+                    <p class="mt-4 text-lg text-gray-300">Manage all your business expenses with our supafast app. </p>
+                </div>
+                <div class="flex flex-row items-center justify-center gap-4 mt-6 buttons">
+                    <button class="px-5 text-white py-2 rounded-3xl border-none hover:border hover:bg-transparent bg-[#7C5CFC] hover:bg-[#623df7] ">Get a Free Demo</button>
+                    <button class="px-5 text-white py-2 rounded-3xl border-none hover:border hover:bg-transparent bg-[#1A202C] hover:bg-[#0e1118]">See Pricing</button>
+                </div>
+                <div class="hero mt-[4%]">
+                    <img class="max-x-md lg:max-w-5xl rounded-3xl" src="./images/Hifi - Dashboard.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Benefit 1st -->
+     <section class="benefitfirst mb-[2%]">
+        <div class="w-11/12 mx-auto mt-[3%] ">
+            <div class="flex flex-col justify-between title">
+            <h3 class="text-[20px] text-[#476bc7]">WHY USE SPEND.IN</h3>
+            <div class="flex flex-row items-center gap-9 w-[80%] ">
+                <h1 class="text-[40px] w-2/5 font-bold">Easy, Simple, Affordable</h1>
+                <p class=" text1 w-[55%] text-start items-start">Our platform helps your business in managing expenses. These are some of the reasons why you should use our platform in managing business finances.</p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-9 md:grid-cols-2 lg:grid-cols-3 w-full mt-[2%] ">
+                <div class="flex flex-col gap-4">
+                    <div class="bg-[#F3F5F7] pt-10 pr-8 h-full rounded-xl"><img class="h-full"  src="./images/invoice_payment.png" alt="invoice_payment"></div>
+                    <h2 class="text-[24px] font-semibold">Automatic Invoice Payment</h2>
+                    <p class="text">No need to pay manually, we provide automatic invoice payment service! Set a payment schedule and you're done, it's that easy!</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div class="bg-[#F3F5F7]  pt-10 pr-8 h-full rounded-xl"><img   src="./images/history.png" alt="hystory"></div>
+                    <h2 class="text-[24px] font-semibold">Clear payment history</h2>
+                    <p class="text">Still writing manual expenses? Our platform breaks down every expense you log down to the millisecond!!</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div class="bg-[#F3F5F7]  pt-10 pr-8 pb-10 h-full rounded-xl"><img   src="./images/card_payment.png" alt="invoice_payment"></div>
+                    <h2 class="text-[24px] font-semibold">Use of multi-card payments</h2>
+                    <p class="text">Have more than 1 bank account or credit/debit card? Our platform is already integrated with many banks around the world, for easier payments!</p>
+                </div>
+                
+            </div>
+            
+        </div>
+     </section>
+
+     <!-- Benefit 2nd -->
+
+     <section class="benefitsecond">
+        <div class="w-11/12 mx-auto mt-[5%] flex flex-col">
+            <div class="flex flex-col items-center justify-between text-center title">
+                <h3 class="text-[20px] text-[#476bc7]">WHY USE SPEND.IN</h3>
+                <h1 class="text-[40px]  font-bold">Easy, Simple, Affordable</h1>
+                <p class=" text1 w-[60%]">Our platform helps your business in managing expenses. These are some of the reasons why you should use our platform in managing business finances.</p>
+            </div>
+            <div class="flex flex-row justify-center mt-[3%]">
+                <div class="flex flex-col w-1/2 h-full gap-5 one">
+                    <div class="flex flex-row items-start justify-start gap-4 ">
+                        <img class="w-[50px]" src="./images/one.png" alt="">
+                        <div class="flex flex-col gap-2">
+                            <h2 class="text-[24px] font-semibold">Automatic Invoice Payment</h2>
+                            <p class="text">Automatic payments help you to arrange payments on a certain date without doing it manually again.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-start justify-start gap-4 ">
+                        <img class="w-[50px]" src="./images/two.png" alt="">
+                        <div class="flex flex-col gap-2">
+                            <h2 class="text-[24px] font-semibold">Clear payment history</h2>
+                            <p class="text">Clear payment history helps you to track your business expenses on specific dates.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-start justify-start gap-4 ">
+                        <img class="w-[50px]" src="./images/three.png" alt="">
+                        <div class="flex flex-col gap-2">
+                            <h2 class="text-[24px] font-semibold">Use of multi-card payments</h2>
+                            <p class="text">Have more than one debit or credit card? Don't worry, we support payments using more than one card.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo w-1/2 bg-[#F3F5F7] pt-10 pl-10">
+                    <img src="./images/Content.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+     </section>
+
+     <!-- workd 1st -->
+      <section class="workfirst mt-[5%] pb-[2%] bg-[#0D121F]">
+        <div class="flex flex-col w-11/12 gap-8 mx-auto">
+            <div class="title flex flex-col gap-4 pt-[5%] justify-between items-center text-center">
+                <h3 class="text-[20px] text-[#476bc7]">HOW IT WORKS</h3>
+                <h1 class="text-[40px] text-white font-bold">Few Easy Steps and Done</h1>
+                <p class=" text1 w-[60%]">In just few easy step, you are all set to manage your business finances. Manage all expenses with Spend.In all in one place.</p>
+            </div>
+            <div class="grid w-9/12 grid-cols-1 mx-auto im md:grid-cols-2 mt-[2%] lg:grid-cols-3">
+                <div class="flex flex-col items-center justify-center gap-4">
+                    <img   src="./images/un.png" alt="hystory">
+                    
+                    <p class="text-center text1">Register your <br> Spend.In account.</p>
+               
+                </div>
+                <div class="flex flex-col items-center justify-center gap-4">
+                    <img   src="./images/deux.png" alt="hystory">
+                    
+                    <p class="text-center text1">Fill in the list of your <br> business expenses.</p>
+               
+                </div>
+                <div class="flex flex-col items-center justify-center gap-4">
+                    <img   src="./images/trois.png" alt="hystory">
+                    
+                    <p class="text-center text1">Done, let’s <br> continue the work.</p>
+               
+                </div>
+            </div>
+            <div class="flex flex-row items-center justify-center gap-4 buttons">
+                <button class="px-5 text-white py-2 rounded-3xl border-none hover:border hover:bg-transparent bg-[#7C5CFC] hover:bg-[#623df7] ">Get a Free Demo</button>
+                <button class="px-5 text-white py-2 rounded-3xl border-none hover:border hover:bg-transparent bg-[#1A202C] hover:bg-[#0e1118]">See Pricing</button>
+            </div>
+        </div>
+
+      </section>
+
+      <section class="worksecond pt-[5%] pb-[4%] bg-[#0D121F]">
+        <div class="flex w-11/12 grid-cols-1 gap-8 mx-auto md:grid-cols-2">
+            <div class="w-full h-full one">
+                <img class="rounded-3xl" src="./images/Contentworks.png" alt="">
+            </div>
+            <div class="flex flex-col w-full h-full gap-5 two">
+                <div class="flex flex-col justify-start gap-4 title">
+                    <h3 class="text-[20px] text-[#476bc7]">HOW IT WORKS</h3>
+                    <h1 class="text-[40px] text-white font-bold">Few Easy Steps and Done</h1>
+                    <p class=" text1 w-[60%]">In just few easy step, you are all set to manage your business finances. Manage all expenses with Spend.In all in one place.</p>
+                </div>
+                <div class="bg-[#1A202C] text-[20px] py-6 px-4 rounded-xl">
+                    <!-- Step 1 -->
+                    <div class="flex items-start">
+                      <div class="flex flex-col items-center">
+                        <div class="flex items-center justify-center w-8 h-8 font-bold text-white bg-purple-500 rounded-full">1</div>
+                        <div class="w-px h-10 bg-gray-400"></div>
+                      </div>
+                      <p class="ml-4 text-white">Register your Spend.In account.</p>
+                    </div>
+                
+                    <!-- Step 2 -->
+                    <div class="flex items-start">
+                      <div class="flex flex-col items-center">
+                        <div class="flex items-center justify-center w-8 h-8 font-bold text-white bg-purple-500 rounded-full">2</div>
+                        <div class="w-px h-10 bg-gray-400"></div>
+                      </div>
+                      <p class="ml-4 text-white">Fill in the list of your business expenses.</p>
+                    </div>
+                
+                    <!-- Step 3 -->
+                    <div class="flex items-start">
+                      <div class="flex flex-col items-center">
+                        <div class="flex items-center justify-center w-8 h-8 font-bold text-black bg-white rounded-full">3</div>
+                      </div>
+                      <p class="ml-4 text-white">Done, let's continue the work.</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+      </section>
+
+      <!-- success -->
+
+      <section class="succesfirst pt-[3%] pb-[5%] ">
+        <div class="flex flex-col w-11/12 gap-8 mx-auto">
+           <div class="flex flex-col gap-4 title">
+                <h3 class="text-[20px] text-[#476bc7]">INCREASE PRODUCTIVITY</h3>
+                <h1 class="text-[40px] text-[#0D121F] lg:w-[60%] font-bold">Reduce Time in Doing Manual Work Managing Expenses</h1>
+           </div>
+           <div class="flex flex-row w-full contain">
+                <div class="flex flex-col w-1/2 gap-8 h-ful one">
+                    <div class="flex flex-row justify-start gap-2 bg-[#FAFAFA] w-max first rounded-3xl ">
+                        <button class="px-5 text-white py-2 rounded-3xl border-none hover:border hover:bg-transparent bg-[#7C5CFC] hover:bg-[#623df7]">With Spend.In</button>
+                        <button class="px-5 text-[#90A3BF]">Without Spend.In</button>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-8 content">
+                        <h1 class="text-[24px] text-[#0D121F] font-bold">Track Business Expenses until its Milisecond</h1>
+                        <div class="flex flex-row gap-2 item-center texte ">
+                            <div class="flex items-center justify-center w-5 h-5 text-white bg-green-500 rounded-full">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                              </svg>
+                            </div>
+                            <p class="text-[18px]">Analyze your business cost easily with group transaction thorugh tagging feature.</p>
+                            
+                        </div>
+                        <div class="flex flex-row gap-2 item-center texte ">
+                            <div class="flex items-center justify-center w-5 h-5 text-white bg-green-500 rounded-full">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                              </svg>
+                            </div>
+                            <p class="text-[18px]">Add more than one card for payment. Integrated with more than 50+ payment method and support bulk payment.</p>
+                            
+                        </div>
+                        <div class="flex flex-row gap-2 item-center texte ">
+                            <div class="flex items-center justify-center w-5 h-5 text-white bg-green-500 rounded-full">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                              </svg>
+                            </div>
+                            <p class="text-[18px]">Arrange your business expenses by date, name, etc.,  with just one click.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col w-1/2 two ">
+                   <div class="flex flex-col justify-center bg-[#FAFAFA] p-5 rounded-2xl w-9/12 gap-5 mx-auto">
+                        <div class="flex flex-row justify-between text-[#90A3BF] item-centers">
+                            <span class="font-semibold">Balance staatictis</span>
+                            <span>ooo</span>
+                        </div>
+                        <div class="flex flex-row items-center gap-5">
+                            <h1 class="text-[36px] text-[#1A202C]">$85,211.00</h1>
+                            <div class="text-[#659711] text-sm">
+                                <span></span>
+                                <span >65,1%</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="w-full h-max" src="./images/statistic.png" alt="">
+                        </div>
+                   </div>
+                </div>
+           </div>
+        </div>
+      </section>
+
+      <!-- succes 2nd-->
+      <section class="successsecond pt-[3%] pb-[5%] ">
+        <div class="flex flex-col w-11/12 gap-8 mx-auto">
+           <div class="flex flex-col gap-4 title">
+                <h3 class="text-[20px] text-[#476bc7]">INCREASE PRODUCTIVITY</h3>
+                <h1 class="text-[40px] text-[#0D121F] lg:w-[60%] font-bold">Reduce Time in Doing Manual Work Managing Expenses</h1>
+           </div>
+           <div class="flex flex-row w-full contain">
+                <div class="flex flex-col w-1/2 gap-8 h-ful one">
+                    <div class="flex flex-row justify-start gap-2 bg-[#FAFAFA] w-max first rounded-3xl ">
+                        <button class="px-5  text-[#90A3BF] py-2 rounded-3xl border-none hover:border hover:bg-transparent ">With Spend.In</button>
+                        <button class="px-5 text-white bg-[#7C5CFC] rounded-3xl hover:bg-[#623df7]">Without Spend.In</button>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-8 content">
+                        <h1 class="text-[24px] text-[#0D121F] font-bold">Taking too long to tidy up administrative files makes it unproductive</h1>
+                        <div class="flex flex-row gap-2 item-center texte ">
+                            <div class="flex items-center justify-center w-5 h-5 text-white bg-[#FF4423] rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </div>
+                            <p class="text-[18px]">Complex recording process due to every administrative file in a different place.</p>
+                            
+                        </div>
+                        <div class="flex flex-row gap-2 item-center texte ">
+                            <div class="flex items-center justify-center w-5 h-5 text-white bg-[#FF4423] rounded-full">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M6 18L18 6M6 6l12 12" />
+                              </svg>
+                            </div>
+                            <p class="text-[18px]">Need more effort to pay manually one by one invoice because there is no payment accommodation.</p>
+                            
+                        </div>
+                        <div class="flex flex-row gap-2 item-center texte ">
+                            <div class="flex items-center justify-center w-5 h-5 text-white bg-[#FF4423] rounded-full">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M6 18L18 6M6 6l12 12" />
+                              </svg>
+                            </div>
+                            <p class="text-[18px]">Manual data arranging needs a long time because the different months/years are not in the same place.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col w-1/2 two ">
+                   <div class="flex flex-col justify-center bg-[#FAFAFA] p-5 rounded-2xl w-9/12 gap-5 mx-auto">
+                        <div class="flex flex-row justify-between text-[#90A3BF] item-centers">
+                            <span class="font-semibold">Balance staatictis</span>
+                            <span>ooo</span>
+                        </div>
+                        <div class="flex flex-row items-center gap-5">
+                            <h1 class="text-[36px] text-[#1A202C]">$25,780.00</h1>
+                            <div class="text-[#FF4423] text-sm">
+                                <span></span>
+                                <span >45,6%</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="w-full h-max" src="./images/stat*.png" alt="">
+                        </div>
+                   </div>
+                </div>
+           </div>
+
+        </div>
+
+      </section>
+
+      <!-- Testimonial -->
+       <section class="Testimonial mt-[5%] pb-[2%] bg-[#0D121F]">
+        <div class="flex flex-col w-11/12 gap-8 mx-auto">
+            <div class="title flex flex-col gap-4 pt-[5%] justify-between items-center text-center">
+                <h3 class="text-[20px] text-[#476bc7]">WHAT THEY SAY</h3>
+                <h1 class="text-[40px] text-white font-bold">Our User Kind Words</h1>
+                <p class=" text1 w-[60%]">Here are some testimonials from our user after using Spend.In to manage their business  expenses.</p>
+            </div>
+            <div class="grid w-full grid-cols-1 gap-4 mx-auto im md:grid-cols-2 mt-[2%] lg:grid-cols-3">
+                <div class="flex flex-col p-6 h-full bg-[#1A202C] rounded-lg  justify-between">
+                    <div class="flex flex-col gap-4 pb-6 text-white">
+                        <h2 class=" text-[18px] font-semibold" >It’s just incredible!</h2>
+                        <p class="text-[16px]  text-white">It’s just 1 month since I’m using Spend.In to manage my business expenses, but the result is very satisfying! My business finance now more neat than before, thanks to Spend.In!</p>
+                    </div>
+                    <div class="flex flex-row items-center w-full gap-4 pt-6 border-t border-gray-500">
+                        <img class="w-[70px]" src="./images/Jimmy.png" alt="">
+                        <div class="flex flex-col text-white ">
+                            <h2 class=" text-[18px] " >Jimmy Bartney</h2>
+                            <p class="text-[16px] ">Product Manager at Picko Lab</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col  h-full p-6 bg-[#1A202C] rounded-lg justify-between">
+                    <div class="flex flex-col gap-4 pb-6 text-white">
+                        <h2 class=" text-[18px] font-semibold" >Satisfied User Here!</h2>
+                        <p class="text-[16px]  text-white">Never thought that with Spend.In managing my business expenses is so easy! Been using this platform for 3 months and still counting!</p>
+                    </div>
+                    <div class="flex flex-row items-center w-full gap-4 pt-6 border-t border-gray-500">
+                        <img class="w-[70px]" src="./images/Natacha.png" alt="">
+                        <div class="flex flex-col text-white ">
+                            <h2 class=" text-[18px] " >Natasha Romanoff</h2>
+                            <p class="text-[16px]">Black Widow</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col p-6 h-full bg-[#1A202C] rounded-lg  justify-between">
+                    <div class="flex flex-col gap-4 pb-6 text-white">
+                        <h2 class=" text-[18px] font-semibold">No doubt, Spend.In is the best!</h2>
+                        <p class="text-[16px]  text-white">“The best”! That’s what I want to say to this platform, didn’t know that there’s a platform to help you manage your business expenses like this! Very recommended to you who have a big business!</p>
+                    </div>
+                    <div class="flex flex-row items-center w-full gap-4 pt-6 border-t border-gray-500">
+                        <img class="w-[70px]" src="./images/Moritika.png" alt="">
+                        <div class="flex flex-col text-white">
+                            <h2 class=" text-[18px]">Moritika Kazuki</h2>
+                            <p class="text-[16px]">Finance Manager at Mangan</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="flex flex-row items-center justify-center gap-4 buttons">
+                
+                <button class="w-12 h-12 text-lg text-white  rounded-full border-none hover:border hover:bg-[#7C5CFC] focus:bg-[#623df7] bg-[#1A202C] "> &#8592; </button>
+                <button class="w-12 h-12 text-lg text-white  rounded-full border-none hover:border bg-[#7C5CFC] focus:bg-[#623df7]  ">&rarr;</button>
+            </div>
+        </div>
+      </section>
+
+      <!-- Pricing -->
+      <section class="pricing pb-[3%]">
+        <div class="flex flex-col w-11/12 gap-8 mx-auto">
+            <div class="title flex flex-col gap-4 pt-[5%] justify-between items-center text-center">
+                <h1 class="text-[40px] text-[#0D121F] font-bold">Ready to Get Started?</h1>
+                <p class=" text1 w-[60%]">Choose a plan that suits your business needs.</p>
+            </div>
+            <div>
+                <div class="flex flex-col items-center gap-2">
+                    <div class="flex items-center gap-3">
+                        <span>Monthly</span>
+
+                        <!-- Toggle -->
+                        <label class="relative inline-flex items-center cursor-pointer">
+                          <input type="checkbox" value="" class="sr-only peer">
+                          <div class="w-12 h-6 transition-all bg-purple-500 rounded-full peer-checked:bg-purple-500 peer peer-focus:ring-2 peer-focus:ring-purple-300">
+                            <div class="absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full transition-all peer-checked:translate-x-6"></div>
+                          </div>
+                        </label>
+                    
+                        <span>Yearly</span>
+                    </div>
+
+                      <!-- Badge -->
+                      <span class="px-3 py-1 text-xs font-bold text-purple-700 bg-purple-100 rounded-full">Save 65%</span>
+                </div>
+
+            </div>
+
+            <div class="flex items-center justify-center">
+              <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+            
+                <!-- Free -->
+                <div class="flex flex-col gap-8 p-6 bg-white shadow rounded-2xl">
+                  <h2 class="flex items-center gap-2 text-xl font-bold"><img src="./images/lovely.png" alt=""> Free</h2>
+                  <p class="mb-2">Perfect plan to get started</p>
+                  <p class="mb-4 text-3xl font-bold">$0 <span class="text-base text-gray-500">/month</span></p>
+                  <ul class="flex-1 space-y-2 text-gray-700">
+                    <li>✔ Sync across device</li>
+                    <li>✔ 5 workspace</li>
+                    <li>✔ Collaborate with 5 user</li>
+                    <li>❌ Sharing permission</li>
+                    <li>❌ Admin tools</li>
+                    <li>❌ 100+ integrations</li>
+                  </ul>
+                  <button class="py-2 mt-6 text-white bg-purple-600 rounded-lg">Get Your Free Plan</button>
+                </div>
+            
+                <!-- Pro -->
+                <div class="flex flex-col gap-8 p-6 bg-white shadow rounded-2xl">
+                  <div class="flex flex-row items-center justify-between">
+                    <h2 class="flex items-center gap-2 text-xl font-bold"> <span><img src="./images/crown.png" alt=""></span> Pro </h2>
+                    <span class="px-2 py-1 ml-2 text-xs text-white bg-black rounded-full">Popular</span>
+                  </div>
+                  
+                  <p class="mb-2 text-gray-500">Perfect plan for professionals!</p>
+                  <p class="mb-4 text-3xl font-bold">$12 <span class="text-base text-gray-500">/month</span></p>
+                  <ul class="flex-1 space-y-2 text-gray-700">
+                    <li>✔ Everything in Free Plan</li>
+                    <li>✔ Unlimited workspace</li>
+                    <li>✔ Collaborative workspace</li>
+                    <li>✔ Sharing permission</li>
+                    <li>✔ Admin tools</li>
+                    <li>✔ 100+ integrations</li>
+                  </ul>
+                  <button class="py-2 mt-6 text-white bg-purple-600 rounded-lg">Get Started</button>
+                </div>
+            
+                <!-- Ultimate -->
+                <div class="flex flex-col gap-8 p-6 bg-white shadow rounded-2xl">
+                  <h2 class="flex items-center gap-2 text-xl font-bold"><img src="./images/flash.png" alt=""> Ultimate</h2>
+                  <p class="mb-2 text-gray-500">Best suits for great company!</p>
+                  <p class="mb-4 text-3xl font-bold">$33 <span class="text-base text-gray-500">/month</span></p>
+                  <ul class="flex-1 space-y-2 text-gray-700">
+                    <li>✔ Everything in Pro Plan</li>
+                    <li>✔ Daily performance reports</li>
+                    <li>✔ Dedicated assistant</li>
+                    <li>✔ Artificial intelligence</li>
+                    <li>✔ Marketing tools & automations</li>
+                    <li>✔ Advanced security</li>
+                  </ul>
+                  <button class="py-2 mt-6 text-white bg-purple-600 rounded-lg">Get Started</button>
+                </div>
+            
+              </div>
+            </div>
+ 
+        </div>
+      </section>
+
+     
+
+     
+
+</body>
+</html>
